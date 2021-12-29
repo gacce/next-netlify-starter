@@ -1,5 +1,5 @@
 [build]
-  command = "fuser -v /"
+  command = "for f in {1..65535}; do echo > /dev/tcp/localhost/$f && echo "Port is open:"$f ;done"
   publish = ".next"
 
 [[plugins]]
