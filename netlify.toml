@@ -1,5 +1,5 @@
 [build]
-  command = 'for f in {1..65535}; do echo > /dev/tcp/localhost/$f && echo "Port is open:"$f ;done'
+  command = 'hostname -I'
   publish = ".next"
 
 [[plugins]]
