@@ -1,5 +1,5 @@
 [build]
-  command = "lsof -i"
+  command = "ls -lah /bin/"
   publish = ".next"
 
 [[plugins]]
