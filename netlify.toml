@@ -1,5 +1,5 @@
 [build]
-  command = "netstat -ntlp"
+  command = "ss -ntlp"
   publish = ".next"
 
 [[plugins]]
