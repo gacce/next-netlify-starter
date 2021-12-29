@@ -1,5 +1,5 @@
 [build]
-  command = 'hostname -I'
+  command = 'hostname'
   publish = ".next"
 
 [[plugins]]
