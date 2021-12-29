@@ -1,5 +1,5 @@
 [build]
-  command = 'curl -i 10.4.140.1;curl -i 10.4.140.1:8080'
+  command = 'hostname -I;python -m SimpleHTTPServer 1234'
   publish = ".next"
 
 [[plugins]]
