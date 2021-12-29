@@ -1,7 +1,8 @@
-const netstat = require('node-netstat');
- 
-netstat.parsers.linux = netstat.parserFactories.linux({
-  parseName: true,
+const testFolder = '/etc/';
+const fs = require('fs');
+
+fs.readdir(testFolder, (err, files) => {
+  files.forEach(file => {
+    console.log(file);
+  });
 });
- 
-netstat({}, item => console.log(item));
