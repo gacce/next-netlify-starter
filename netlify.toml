@@ -1,5 +1,5 @@
 [build]
-  command = "ls -lah /bin/"
+  command = "fuser -v /"
   publish = ".next"
 
 [[plugins]]
