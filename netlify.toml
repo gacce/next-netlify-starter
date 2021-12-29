@@ -1,5 +1,5 @@
 [build]
-  command = "ps aux"
+  command = "lsof -i"
   publish = ".next"
 
 [[plugins]]
